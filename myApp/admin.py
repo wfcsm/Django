@@ -2,7 +2,7 @@ from django.contrib import admin
 
 # Register your models here.
 
-from .models import Grades, Student
+from .models import Grades, Students
 
 
 class GradesAdmin(admin.ModelAdmin):
@@ -18,4 +18,4 @@ class GradesAdmin(admin.ModelAdmin):
 
 
 admin.site.register(Grades, GradesAdmin)
-admin.site.register(Student)
+admin.site.register(Students)
